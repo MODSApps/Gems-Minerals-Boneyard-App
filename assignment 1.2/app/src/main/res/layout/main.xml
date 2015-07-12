@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="false"
+    android:background="@drawable/homescreen"
+    android:padding="8dip">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Main Menu"
+       android:id="@+id/main_menu"
+       android:textSize="60dp"
+       android:textColor="#ff000000"
+       android:autoText="true"
+       android:textStyle="bold"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginLeft="150dp"
+       android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/imagebutton_boneyard"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dinosaur"
+        android:background="#ffffffff"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="198dp"
+        android:layout_gravity="right" />
+
+    <ImageButton
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:id="@+id/imagebutton_gems"
+        android:scaleType="fitCenter"
+        android:src="@drawable/coal_icon"
+        android:background="#ffffffff"
+        android:layout_below="@+id/main_menu"
+        android:layout_above="@+id/button"
+        android:layout_marginTop="-225dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Boneyard"
+        android:id="@+id/textView4"
+        android:layout_gravity="right"
+        android:layout_below="@+id/imagebutton_boneyard"
+        android:textColor="#ff000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"    />
+
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gems &amp; Minerals "
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="150dp"
+        android:layout_alignBottom="@+id/imagebutton_gems"
+        android:layout_alignParentLeft="true"
+        android:autoText="false" />
+
+    <Button
+       android:id="@+id/about_button"
+       android:layout_width="100dp"
+       android:layout_height="30dp"
+       android:text="@string/about_label"
+       android:layout_weight="0.07"
+        android:layout_marginTop="-160dp"
+        android:layout_gravity="center"
+        android:textStyle="normal" />
+
+    <Button
+       android:id="@+id/exit_button"
+       android:layout_width="100dp"
+       android:layout_height="30dp"
+       android:text="@string/exit_label"
+       android:layout_weight="0.07"
+       android:layout_marginTop="0dp"
+        android:layout_gravity="center" />
+</LinearLayout>

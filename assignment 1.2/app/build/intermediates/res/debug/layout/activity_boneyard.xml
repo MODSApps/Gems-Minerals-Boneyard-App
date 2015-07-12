@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boneyard"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="60dp"
+        android:textColor="#ff000000"
+        android:layout_marginTop="51dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imagebutton_boneyard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dinosaur"
+        android:background="#ffffffff"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game"
+        android:id="@+id/button"
+        android:textSize="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:id="@+id/button2"
+        android:textSize="50sp"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textSize="50sp"
+        android:layout_alignBottom="@+id/button2"
+        android:text="Home"
+        android:id="@+id/button6"
+        android:layout_gravity="center" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Lindsey_2/AndroidStudioProjects/Sudokuv4/app/src/main/res/layout/activity_boneyard.xml -->

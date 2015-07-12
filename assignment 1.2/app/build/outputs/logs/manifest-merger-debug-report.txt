@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:10:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:10:11
+	package
+		ADDED from AndroidManifest.xml:11:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:13:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:12:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:17:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:16:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:19:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:21:9
+	android:name
+		ADDED from AndroidManifest.xml:20:9
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:30
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:23:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:25:9
+	android:name
+		ADDED from AndroidManifest.xml:24:9
+application
+ADDED from AndroidManifest.xml:27:5
+	android:label
+		ADDED from AndroidManifest.xml:29:9
+	android:icon
+		ADDED from AndroidManifest.xml:28:9
+activity#org.example.sudoku.MineralsBoneyard
+ADDED from AndroidManifest.xml:30:9
+	android:label
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:33:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:36:27
+activity#org.example.sudoku.About
+ADDED from AndroidManifest.xml:39:9
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:theme
+		ADDED from AndroidManifest.xml:42:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+activity#org.example.sudoku.Prefs
+ADDED from AndroidManifest.xml:44:9
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+activity#org.example.sudoku.Game
+ADDED from AndroidManifest.xml:48:9
+	android:label
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+activity#org.example.sudoku.boneyard
+ADDED from AndroidManifest.xml:51:9
+	android:label
+		ADDED from AndroidManifest.xml:53:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
+activity#org.example.sudoku.minerals
+ADDED from AndroidManifest.xml:55:9
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13

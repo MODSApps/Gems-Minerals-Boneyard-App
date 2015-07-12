@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:clickable="false"
+    android:padding="50dip">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Main Menu"
+        android:id="@+id/main_menu"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:textColor="#ff000000"
+        android:autoText="true"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imagebutton_gems"
+        android:scaleType="fitCenter"
+        android:src="@drawable/coal_icon"
+        android:background="#ffffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/main_menu" />
+
+    <ImageButton
+        android:id="@+id/imagebutton_boneyard"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dinosaur"
+        android:background="#ffffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/main_menu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gems &amp; Minerals "
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="199dp"
+        android:layout_alignBottom="@+id/imagebutton_gems"
+        android:layout_toLeftOf="@+id/imagebutton_boneyard"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Boneyard"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/textView2"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/imagebutton_boneyard" />
+
+</RelativeLayout>
